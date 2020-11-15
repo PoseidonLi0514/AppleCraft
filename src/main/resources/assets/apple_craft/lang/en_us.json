@@ -1,0 +1,20 @@
+{
+  "item.apple_craft.diamond_apple": "Diamond Apple",
+  "item.apple_craft.netherite_apple": "Netherite Apple",
+  "item.apple_craft.gunpowder_apple": "§7§lGunpowder Apple",
+  "item.apple_craft.emerald_apple": "§aEmerald Apple",
+  "item.apple_craft.obsidian_apple": "Obsidian Apple",
+  "item.apple_craft.enchanted_diamond_apple": "Enchanted Diamond Apple",
+  "item.apple_craft.iron_apple": "Iron Apple",
+  "item.apple_craft.netherite_stick": "Netherite Stick",
+  "item.apple_craft.gunpowder_apple.tooltip": "Why are you so fierce? Ate gunpowder? ——Yes, I just ate the gunpowder apple",
+  "item.apple_craft.obsidian_apple.tooltip": "This apple is made of obsidian. Be careful! You may lose teeth after eating it.",
+  "item.apple_craft.enchanted_diamond_apple.tooltip": "I don't know the effect, wait for the next version!",
+  "block.apple_craft.sugar_ore": "Sugar Ore",
+  "block.apple_craft.sugar_block": "Sugar Block",
+  "block.apple_craft.diamond_apple_block": "Diamond Apple Block",
+  "block.apple_craft.apple_ore": "Apple Ore",
+  "item.apple_craft.netherite_apple_pickaxe": "Netherite Apple Pickaxe",
+  "itemGroup.apple_craft.block": "Apple Craft's Blocks",
+  "itemGroup.apple_craft.apple": "Apple Craft's Item"
+}

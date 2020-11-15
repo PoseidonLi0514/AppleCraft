@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WRW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:gunpowder"
+    },
+    "R": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "apple_craft:gunpowder_apple",
+    "count": 1
+  }
+}

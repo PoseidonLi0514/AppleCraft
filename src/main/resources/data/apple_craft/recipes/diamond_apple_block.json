@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "apple_craft:diamond_apple"
+    }
+  },
+  "result": {
+    "item": "apple_craft:diamond_apple_block",
+    "count": 1
+  }
+}

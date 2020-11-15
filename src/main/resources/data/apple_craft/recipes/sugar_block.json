@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "apple_craft:sugar_block",
+    "count": 1
+  }
+}

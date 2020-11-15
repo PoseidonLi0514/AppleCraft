@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "apple_craft:block/sugar_block"
+  }
+}

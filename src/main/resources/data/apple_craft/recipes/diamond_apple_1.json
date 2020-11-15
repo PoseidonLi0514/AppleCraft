@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "apple_craft:diamond_apple_block"
+    }
+  ],
+  "result": {
+    "item": "apple_craft:diamond_apple",
+    "count": 9
+  }
+}

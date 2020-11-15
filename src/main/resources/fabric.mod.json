@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "applecraft",
+  "version": "${version}",
+  "name": "AppleCraft",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/applecraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cn.acraft.applecraft.client.ApplecraftClient"
+    ],
+    "main": [
+      "cn.acraft.applecraft.Applecraft"
+    ]
+  },
+  "mixins": [
+    "applecraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
