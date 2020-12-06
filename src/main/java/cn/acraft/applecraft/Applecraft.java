@@ -41,7 +41,7 @@ public class Applecraft implements ModInitializer {
             .rarity(Rarity.RARE)
             .fireproof()
             .food((new FoodComponent.Builder())
-                    .hunger(20)
+                    .hunger(40)
                     .saturationModifier(20F)
                     .alwaysEdible()
                     .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 36000, 9), 1.0F)
@@ -52,8 +52,7 @@ public class Applecraft implements ModInitializer {
                     .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 36000, 5), 1.0F)
                     .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 36000, 1),1.0F)
                     .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 36000, 4), 1.0F)
-                    .build())
-            .maxCount(64));//下届合金苹果
+                    .build()));//下届合金苹果
 
     public static final gunpowderapple GUNPOWDER_APPLE = new gunpowderapple(new Item.Settings()
             .food(new FoodComponent.Builder()

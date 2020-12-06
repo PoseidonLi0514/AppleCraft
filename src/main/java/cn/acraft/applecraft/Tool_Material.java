@@ -1,12 +1,13 @@
 package cn.acraft.applecraft;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public class Tool_Material implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 233333;//耐久
+        return 232333;//耐久
     }
 
     @Override
@@ -26,11 +27,11 @@ public class Tool_Material implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 100;//没写，不知道写啥
+        return 2;//没写，不知道写啥
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;//没写，不知道写啥
+        return Ingredient.ofItems(Applecraft.NETHERITE_APPLE);//没写，不知道写啥
     }
 }

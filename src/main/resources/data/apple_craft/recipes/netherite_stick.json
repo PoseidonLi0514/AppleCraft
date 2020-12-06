@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "#"
+    "n",
+    "n"
   ],
   "key": {
-    "#": {
+    "n": {
       "item": "minecraft:netherite_ingot"
     }
   },
   "result": {
-    "item": "apple_plus:netherite_stick",
-    "count": 1
+    "item": "apple_craft:netherite_stick",
+    "count": 2
   }
 }

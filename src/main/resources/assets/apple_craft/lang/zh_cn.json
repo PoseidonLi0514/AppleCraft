@@ -8,13 +8,13 @@
   "item.apple_craft.gunpowder_apple.tooltip": "你咋这么凶？吃火药了？——对，我刚吃了火药苹果",
   "item.apple_craft.obsidian_apple.tooltip": "小心你的牙哦！苹果用黑曜石做的，小心崩掉你的牙",
   "item.apple_craft.enchanted_diamond_apple.tooltip": "不知道写什么效果，等待下个版本",
-  "item.apple_craft.netherite_stick": "下届合金棍",
+  "item.apple_craft.netherite_stick": "下界合金棍",
   "item.apple_craft.enchanted_diamond_apple": "附魔钻石苹果",
   "block.apple_craft.sugar_ore": "糖矿石",
   "block.apple_craft.sugar_block": "糖块",
   "block.apple_craft.diamond_apple_block": "钻石苹果块",
   "block.apple_craft.apple_ore": "苹果矿石",
-  "item.apple_craft.netherite_apple_pickaxe": "下届合金苹果镐",
+  "item.apple_craft.netherite_apple_pickaxe": "下界合金苹果镐",
   "itemGroup.apple_craft.block": "苹果工艺 方块",
   "itemGroup.apple_craft.apple": "苹果工艺 苹果"
 }
