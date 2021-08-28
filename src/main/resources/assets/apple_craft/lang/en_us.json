@@ -13,8 +13,13 @@
   "block.apple_craft.sugar_ore": "Sugar Ore",
   "block.apple_craft.sugar_block": "Sugar Block",
   "block.apple_craft.diamond_apple_block": "Diamond Apple Block",
+  "block.apple_craft.emerald_apple_block": "Emerald Apple Block",
   "block.apple_craft.apple_ore": "Apple Ore",
   "item.apple_craft.netherite_apple_pickaxe": "Netherite Apple Pickaxe",
+  "item.apple_craft.netherite_apple_sword": "Netherite Apple Sword",
+  "item.apple_craft.netherite_apple_axe": "Netherite Apple Axe",
+  "item.apple_craft.netherite_apple_shovel": "Netherite Apple Shovel",
   "itemGroup.apple_craft.block": "Apple Craft's Blocks",
-  "itemGroup.apple_craft.apple": "Apple Craft's Item"
+  "itemGroup.apple_craft.apple": "Apple Craft's Item",
+  "item.apple_craft.diamond_stick": "Diamond Stick"
 }
