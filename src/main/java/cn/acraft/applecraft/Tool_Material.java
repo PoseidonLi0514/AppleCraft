@@ -1,37 +1,57 @@
 package cn.acraft.applecraft;
 
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.tag.ItemTags;
+import net.minecraft.util.Lazy;
 
-public class Tool_Material implements ToolMaterial {
-    @Override
+import java.util.function.Supplier;
+
+
+public enum Tool_Material implements ToolMaterial {
+    NETHERITE_APPLE(4, 23233, 15.0F, 15.0F, 30, () -> {
+        return Ingredient.ofItems(Applecraft.NETHERITE_APPLE);
+    });
+
+    private final int miningLevel;
+    private final int itemDurability;
+    private final float miningSpeed;
+    private final float attackDamage;
+    private final int enchantability;
+    private final Lazy<Ingredient> repairIngredient;
+
+    private Tool_Material(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+        this.miningLevel = miningLevel;
+        this.itemDurability = itemDurability;
+        this.miningSpeed = miningSpeed;
+        this.attackDamage = attackDamage;
+        this.enchantability = enchantability;
+        this.repairIngredient = new Lazy(repairIngredient);
+    }
+
     public int getDurability() {
-        return 232333;//耐久
+        return this.itemDurability;
     }
 
-    @Override
     public float getMiningSpeedMultiplier() {
-        return 20.0F;//马巨额速度
+        return this.miningSpeed;
     }
 
-    @Override
     public float getAttackDamage() {
-        return 50.0F;//伤害
+        return this.attackDamage;
     }
 
-    @Override
     public int getMiningLevel() {
-        return 4;//没写，不知道写啥
+        return this.miningLevel;
     }
 
-    @Override
     public int getEnchantability() {
-        return 2;//没写，不知道写啥
+        return this.enchantability;
     }
 
-    @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Applecraft.NETHERITE_APPLE);//没写，不知道写啥
+        return (Ingredient)this.repairIngredient.get();
     }
 }

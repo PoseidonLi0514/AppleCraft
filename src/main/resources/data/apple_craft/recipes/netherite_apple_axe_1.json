@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#G",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "apple_craft:netherite_apple"
+    },
+    "G": {
+      "item": "apple_craft:netherite_stick"
+    }
+  },
+  "result": {
+    "item": "apple_craft:netherite_apple_axe",
+    "count": 1
+  }
+}
