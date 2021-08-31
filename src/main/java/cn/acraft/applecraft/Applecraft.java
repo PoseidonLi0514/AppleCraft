@@ -94,6 +94,11 @@ public class Applecraft implements ModInitializer {
             .food(new FoodComponent.Builder()
                     .hunger(40)
                     .saturationModifier(20.0F)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1800, 2),1.0F)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 900, 0), 0.8F)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1200, 1), 1.0F)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3600, 0), 1.0F)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 1800, 1), 1.0F)
                     .build())
             .group(AItemGroup.APPLE_GROUP));//附魔钻石苹果 开发进度：未写效果
 
@@ -180,5 +185,6 @@ public class Applecraft implements ModInitializer {
                 new Identifier("apple_craft", "apple_ore"));
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreAppleOverworld.getValue(), ORE_APPLE_OVERWORLD);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, oreAppleOverworld);
+
     }
 }
